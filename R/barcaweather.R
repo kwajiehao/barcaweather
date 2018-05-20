@@ -26,6 +26,8 @@
 barcaweather <- function(day, metric = FALSE, private_key = '019b0ffe039ab1061724964decc1a73e'){
 
   week <- seq(0,7)
+  measurement <- 'fahrenheit'
+  num_days <- 'days'
 
   # ensures that only values of day within the coming week are accepted
   if (day < 0 | day > 7){
@@ -49,7 +51,13 @@ barcaweather <- function(day, metric = FALSE, private_key = '019b0ffe039ab106172
 
   if (metric == TRUE){
     temp <- (5/9) * (temp - 32)
+    measurement <- 'celsius'
   }
 
-  return(temp)
+  if (day == 1){
+    num_days <- 'day'
+  }
+
+
+  return(paste0('The weather ', day, ' ', num_days, ' from now is ', temp, ' ', measurement))
 }
