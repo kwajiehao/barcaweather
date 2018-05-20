@@ -1,0 +1,16 @@
+Package: barcaweather
+Version: 0.0.0.9000
+Title: Obtain the temperature for any day in the coming week in Barcelona
+Description: The darksky api, among other functions, allows one to retrieve the temperature of any day in the coming week. This might be useful in helping one to plan events, or to prepare what kind of clothing to wear. This package uses the darksky api to get the temperature for any day in the coming week. The temperature is calculated by taking the mean between the daily maximum and minimum temperatures.
+Authors@R: person("Jie Hao", "Kwa", , "jie.kwa@barcelonagse.eu", c("aut", "cre"))
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+RoxygenNote: 6.0.1
+Imports: 
+    httr
+Suggests: 
+    testthat
+URL: https://github.com/kwajiehao/barcaweather
+BugReports: https://github.com/kwajiehao/barcaweather/issues
