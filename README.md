@@ -12,8 +12,6 @@ install.packages("barcaweather")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
-
 ``` r
 barcaweather(3, metric = "TRUE")
 ```
