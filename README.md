@@ -4,11 +4,7 @@ The goal of barcaweather is to tell you the temperature in Barcelona for any day
 
 ## Installation
 
-You can install the released version of barcaweather from [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("barcaweather")
-```
+Unfortunately, barcaweather is not available on [CRAN](https://CRAN.R-project.org). Please install by forking this repository or downloading the barcaweather.R script.
 
 ## Example
 
