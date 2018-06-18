@@ -9,6 +9,6 @@ Unfortunately, barcaweather is not available on [CRAN](https://CRAN.R-project.or
 ## Example
 
 ``` r
-barcaweather(3, metric = "TRUE")
+barcaweather(3, metric = "TRUE") # shows you the weather in Barcelona 3 days from now in degrees celsius
 ```
 
